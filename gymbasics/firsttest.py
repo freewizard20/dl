@@ -1,6 +1,6 @@
 import gym
 
-env = gym.make("Taxi-v2")
+env = gym.make("Humanoid-v2")
 observation = env.reset()
 for _ in range(1000):
     env.render()
